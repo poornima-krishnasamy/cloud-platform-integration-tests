@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+gem "rspec"
+gem 'openid_connect'
+gem 'kubeclient'
+gem "pry-byebug"
+gem 'aws-sdk-core', '~> 3.59'
+gem 'aws-sdk-iam', '~> 1.3'

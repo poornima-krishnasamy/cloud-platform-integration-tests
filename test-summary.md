@@ -1,7 +1,3 @@
-# cloud-platform-integration-tests
-
-Integration tests for kubernetes clusters
-
 How to test KIAM
 To check assume role and the pod can run with the assume_role
     create a iam role
